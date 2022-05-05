@@ -50,12 +50,12 @@ Favoring compatibility, H.264 and AAC are widely used, IBM’s video streaming a
 
 ## Documentation and References
 
-- https://www.gamedeveloper.com/audio/in-depth-playing-with-video
-- https://www.lifewire.com/what-exactly-is-odec-2483426
-- https://www.wowza.com/blog/video-codecs-encoding
-- https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/
-- https://www.techsmith.com/blog/understanding-video-file-types-codecs-containers-and-outputs/
-- https://www.techtarget.com/searchunifiedcommunications/definition/codec
-- https://www.youtube.com/watch?v=sisvOeZItb0
-- https://www.youtube.com/watch?v=7YQ1mikDhIo
-- https://www.youtube.com/watch?v=GhWki9a7s18
+- [www.gamedeveloper.com/audio/in-depth-playing-with-video](https://www.gamedeveloper.com/audio/in-depth-playing-with-video)
+- [www.lifewire.com/what-exactly-is-odec-2483426](https://www.lifewire.com/what-exactly-is-odec-2483426)
+- [www.wowza.com/blog/video-codecs-encoding](https://www.wowza.com/blog/video-codecs-encoding)
+- [blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/](https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/)
+- [www.techsmith.com/blog/understanding-video-file-types-codecs-containers-and-outputs/](https://www.techsmith.com/blog/understanding-video-file-types-codecs-containers-and-outputs/)
+- [www.techtarget.com/searchunifiedcommunications/definition/codec](https://www.techtarget.com/searchunifiedcommunications/definition/codec)
+- [www.youtube.com/watch?v=sisvOeZItb0](https://www.youtube.com/watch?v=sisvOeZItb0)
+- [www.youtube.com/watch?v=7YQ1mikDhIo](https://www.youtube.com/watch?v=7YQ1mikDhIo)
+- [www.youtube.com/watch?v=GhWki9a7s18](https://www.youtube.com/watch?v=GhWki9a7s18)
