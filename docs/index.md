@@ -54,6 +54,7 @@ Favoring compatibility, H.264 and AAC are widely used, IBM’s video streaming a
 - https://www.lifewire.com/what-exactly-is-odec-2483426
 - https://www.wowza.com/blog/video-codecs-encoding
 - https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/
+- https://www.techsmith.com/blog/understanding-video-file-types-codecs-containers-and-outputs/
 - https://www.techtarget.com/searchunifiedcommunications/definition/codec
 - https://www.youtube.com/watch?v=sisvOeZItb0
 - https://www.youtube.com/watch?v=7YQ1mikDhIo
