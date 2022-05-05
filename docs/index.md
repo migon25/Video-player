@@ -30,3 +30,10 @@ There are lots of codecs, specialize for audio and video compression, for stream
 ### What codecs are better?
 
 There is no right answer for that question. Some codecs are best for high quality, while others maintain better playback on unreliable connections, while others still are designed to keep latency or delay very very low. That is why we need a wide variety of audio and video codecs that are optimized for  different uses.
+
+
+### Container Formats
+
+To make it simpler, we all know about the formats .mkv .mov .avi .mp4 .flv and more.. These are all container, which it's name itself sais it contains data.
+It’s important to distinguish codecs from container formats, though sometimes they share the same name.
+So what are they? As we said they are file formats that can contain specific types of data, including audio, video, closed captioning text, and associated metadata. Most container formats target one aspect of the production and distribution pipeline, like MXF for file-based capture on a camcorder, and FLV and WebM for streaming Flash and WebM content.
