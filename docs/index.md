@@ -27,3 +27,6 @@ There are two parts of a codec, the encoder and the decoder. the encoder compres
 
 There are lots of codecs, specialize for audio and video compression, for streaming media over the internet, speech, video conferencing, playing MP3s, and screen capture. Some create efficient files that are higher quality, but take up more space. Other codecs create small and efficient files but lack overall quality. Some common codecs are MP3, WMA, RealVideo, RealAudio, DivX, and XviD, but there are many others. AVI is a common file extension you see attached to lots of video files, but it is not in itself a codec. Instead, it is a container format that many different codecs can use. Hundreds of codecs are compatible with AVI content.
 
+### What codecs are better?
+
+There is no right answer for that question. Some codecs are best for high quality, while others maintain better playback on unreliable connections, while others still are designed to keep latency or delay very very low. That is why we need a wide variety of audio and video codecs that are optimized for  different uses.
