@@ -25,4 +25,5 @@ There are two parts of a codec, the encoder and the decoder. the encoder compres
 
 ![code](https://github.com/migon25/Video-player/blob/main/docs/video%20player/code.png?raw=true)![quality](https://github.com/migon25/Video-player/blob/main/docs/video%20player/quality.png?raw=true)
 
-There are lots of codecs, to play video, audio and image files. Some codec create effixient files that are higher quality, but take up more space. Other codecs create small and efficient files but lack overall quality.
+There are lots of codecs, specialize for audio and video compression, for streaming media over the internet, speech, video conferencing, playing MP3s, and screen capture. Some create efficient files that are higher quality, but take up more space. Other codecs create small and efficient files but lack overall quality. Some common codecs are MP3, WMA, RealVideo, RealAudio, DivX, and XviD, but there are many others. AVI is a common file extension you see attached to lots of video files, but it is not in itself a codec. Instead, it is a container format that many different codecs can use. Hundreds of codecs are compatible with AVI content.
+
