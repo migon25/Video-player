@@ -19,7 +19,7 @@ as symbols. After all the redundacnies are removed, the resulting data, called t
 
 ![similarities](https://github.com/migon25/Video-player/blob/main/docs/video%20player/similar.png?raw=true)![symbols](https://github.com/migon25/Video-player/blob/main/docs/video%20player/differences.png?raw=true)
 
-There are two parts of a codec, the encoder and the decoder. the encoder compresses the video stream into a binary encoded bitstream. The decoder restores the encoded bitstream back into sequential pictures, or frames, for playback. This process results some losses of the original video quality.
+There are two parts of a codec, the encoder and the decoder. the encoder compresses the video stream into a binary encoded bitstream. The decoder restores the encoded bitstream back into sequential pictures, or frames, for playback. This process results some losses of the original video quality. There are lossless codecs that  make the decompression high quality but their file size compared to lossy codecs are still very large and they can be very processor intensive to encode and decode, so the most common solution is to use a lossy codec at high bitrate that is more data per second in the stream if you want high quality playback without files that are so large you can't store them or easily send them anywhere.
 
 ![encoder](https://github.com/migon25/Video-player/blob/main/docs/video%20player/encoder.png?raw=true)![decoder](https://github.com/migon25/Video-player/blob/main/docs/video%20player/decoder.png?raw=true)
 
