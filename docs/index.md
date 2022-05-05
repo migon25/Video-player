@@ -37,3 +37,24 @@ There is no right answer for that question. Some codecs are best for high qualit
 To make it simpler, we all know about the formats .mkv .mov .avi .mp4 .flv and more.. These are all container, which it's name itself sais it contains data.
 It’s important to distinguish codecs from container formats, though sometimes they share the same name.
 So what are they? As we said they are file formats that can contain specific types of data, including audio, video, closed captioning text, and associated metadata. Most container formats target one aspect of the production and distribution pipeline, like MXF for file-based capture on a camcorder, and FLV and WebM for streaming Flash and WebM content.
+
+
+## Audio Codec
+
+Like video, different audio codecs excel at different things. AAC (Advanced Audio Coding) and MP3 (MPEG-1 Audio Layer 3) are two lossy formats that are widely known among audio and video. Given that they are lossy, these formats, in essence, delete information related to the audio in order to compress the space required. The job of this compression is to strike the right balance, where a sufficient amount of space is saved without notably compromising the audio quality.
+
+## What are the recommended codecs?
+
+Favoring compatibility, H.264 and AAC are widely used, IBM’s video streaming and enterprise video streaming offerings support both the H.264 video codec and the AAC audio codec for streaming. While neither is cutting edge, both can produce high quality content with good compression applied. In addition, video content compressed with these codecs can reach large audiences, especially over mobile devices.
+
+
+## Documentation and References
+
+- https://www.gamedeveloper.com/audio/in-depth-playing-with-video
+- https://www.lifewire.com/what-exactly-is-odec-2483426
+- https://www.wowza.com/blog/video-codecs-encoding
+- https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/
+- https://www.techtarget.com/searchunifiedcommunications/definition/codec
+- https://www.youtube.com/watch?v=sisvOeZItb0
+- https://www.youtube.com/watch?v=7YQ1mikDhIo
+- https://www.youtube.com/watch?v=GhWki9a7s18
