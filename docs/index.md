@@ -2,13 +2,29 @@
 
 ### Intro
 
-A video player is a software that allows for the playback of video an multi media with the help of codec. A codec is a computer program that uses compression to shrink a large movie file or convert between analog and digital sound. The codec contains a digital to analog converter that allows to convert sound to a digital file and it also has an analog to digital converter to interpret digital files and turn those back into sound with the maximum fidelity as possible.
+This is a research on video players and a quick explanation and implementation of them for the subject Project II. In this page you will see a brief explanation on why they use videos in video gamese, how they are made, the components of a video player, codecs and container types. For the code of this research we are going to use Video for Windows libraries and DirectShow to open, read and decompress AVI files, also we need SDL to render the graphics.
 
+### What are the uses of videos in video games?
+
+Video games commonly use pre-rendered videos for cutscenes, but they also use it for the intro of the animation of the studio, credits, intermissions, and more. Pre-rendered cutscenes were pretty much used for the narrative part. Nowadays they use real time cutscenes for more interaction with the gameplay story and also for the game company is much easier and faster to develop a game since they don't have to invest the production for the pre-rendered scenes.
+
+Here are some examples of a pre-rendered cutscenes and a real time in game cut-scene:
+
+<iframe width="640" height="334" src="https://www.youtube.com/embed/pa1fi1gxxUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Cutscene before a level.
+
+<iframe width="640" height="334" src="https://www.youtube.com/embed/wFbWI0pwXH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ Real time cutscenes. 
+ 
 ### Why do we need codecs?
 
 Video and music files are huge, which means they are usually difficult to transfer over the internet. To speed up downloads, algorithms encode, or shrink, a signal for transmission and then decode it for viewing or editing. Without codecs, downloads of video and audio would take three to five times longer than they do now. take for example a 10 minute HD video that is compressed is only 500MB whereas a 12 bit raw uncompressed video file with the same resolution as the 10 minute video can take up to 60GB of space. That is why we need codec for efficiency.
 
 ### How does it work?
+
+A video player is a software that allows for the playback of video an multi media with the help of codec. A codec is a computer program that uses compression to shrink a large movie file or convert between analog and digital sound. The codec contains a digital to analog converter that allows to convert sound to a digital file and it also has an analog to digital converter to interpret digital files and turn those back into sound with the maximum fidelity as possible.
 
 The codec computer programs take the original source video or audio data and compresses it in a specific format that adheres to a documented standard that allows to be interpreted easily by other devices that are capable of utilizing the same codec. They are necessary for two main rasons, first is so we can save device space and secondly to efficiently send those files over network. It uses an algorithm to convert data into a byte sequence for easy transmission, then convert the byte sequence back into audio or video again. How does it compress? Well, we know that a video is a sequence of images called frames, and if we take for example a 60 frame per second video we say that it has 60 images every second that passes, and since there are lots of images in a second, those images in each frame varies only slightly from the frames before it and those after it.
 
